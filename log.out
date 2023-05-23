@@ -1,0 +1,13 @@
+Blood Donation Management Started 
+  Blood Donation Management Started 
+  Blood Donation Management Started 
+  Add process started successfully
+  error while adding donor:
+  com.demo.Exception.DonorException: Duplicate entry '1' for key 'donor_details.PRIMARY'
+	at com.demo.DAO.DonorDAO.addDonor(DonorDAO.java:53)
+	at com.demo.BO.DonorBO.addDonor(DonorBO.java:41)
+	at com.demo.service.DonorService.addDonor(DonorService.java:25)
+	at com.demo.main.DonorMain.addDonor(DonorMain.java:91)
+	at com.demo.main.DonorMain.main(DonorMain.java:41)
+Add process not completed.Due to bug:
+  
